@@ -11,6 +11,7 @@ st.button('Haz click')
 tx = st.text_input('Escriba algo:')
 st.write(f'Escribiste: {tx}')
 st.link_button("Go", "Cinnamoroll https://g.co/kgs/uWGXCVp")
+st.write('hola'ñ
 
 #Barra lateral
 st.sidebar.header('Mi primera barra lateral de streamlit')
