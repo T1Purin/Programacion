@@ -10,8 +10,7 @@ st.image('images.png')
 st.button('Haz click')
 tx = st.text_input('Escriba algo:')
 st.write(f'Escribiste: {tx}')
-st.link_button("Go", "Cinnamoroll https://g.co/kgs/uWGXCVp")
-st.write('hola')
+st.link_button("Go", "https://images.app.goo.gl/XED2N3joEMc56DaF6")
 
 #Barra lateral
 st.sidebar.header('Mi primera barra lateral de streamlit')
