@@ -9,4 +9,7 @@ st.image('images.png')
 st.button('Dale click')
 tx = st.text_input('Escriba algo')
 st.write(f'Escribiste: {tx}')
-st.checkbox('Seleccionar')
+st.radio("opciones", ["a","b","c"])
+st.selectbox("Selecciona una opcion:", ["Opcion 1","Opcion 2"])
+st.slider("seleccionar un valor", min_value=0, max_value=100)
+
