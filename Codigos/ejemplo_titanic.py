@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Carga el archivo CSV "database_titanic.csv" en un DataFrame de pandas.
-df = pd.read_csv("https://github.com/T1Purin/Programacion_2/blob/main/Archivos/database_titanic.csv")
+df = pd.read_csv("https://github.com/T1Purin/Programacion_2/blob/main/Archivos/database_titanic.csv", sep=';')
 
 # Muestra un título y una descripción en la aplicación Streamlit.
 st.write("""
