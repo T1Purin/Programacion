@@ -10,4 +10,6 @@ def run():
   tx = st.text_input('Escriba algo:')
   st.write(f'Escribiste: {tx}')
 
+  st.sidebar.header('Mi primera barra lateral de streamlit')
+
 
