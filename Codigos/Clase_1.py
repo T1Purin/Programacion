@@ -1,6 +1,6 @@
 import streamlit as st
 
-def run():
+def c1():
   #Cuerpo
   st.header('Mi primera aplicación de streamlit')
   st.subheader('¡Hola,Streamlit!')
