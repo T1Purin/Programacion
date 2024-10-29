@@ -15,9 +15,9 @@ if selection == "Home":
     st.title("Bienvenido a la página principal")
     # Aquí puedes agregar más contenido para la página principal
 elif selection == "Page 1":
-    import Archivos.Clase_1  # Asegúrate de que la ruta sea correcta
+    import Codigos.Clase_1  # Asegúrate de que la ruta sea correcta
     Archivos.Clase_1.run()    # Asumiendo que tienes una función 'run' en Clase_1.py
 elif selection == "Page 2":
-    import Archivos.Clase_2  # Asegúrate de que la ruta sea correcta
+    import Codigos.Clase_2  # Asegúrate de que la ruta sea correcta
     Archivos.Clase_2.run()    # Asumiendo que tienes una función 'run' en Clase_2.py
 
