@@ -1,7 +1,9 @@
-import pandas as pd
 import streamlit as st
 
-d1 = pd.read_csv('Archivos/AlarmasSistema.csv', sep=';')
-st.write('Lectura de archivos')
-st.write(d1.head())
-st.image('Archivos/0-0-jojos-bizarre-adventure-glosario-diccionario-terminos.webp')
+if st.button("Home"):
+    st.sidebar.switch_page("app.py")
+if st.button("Page 1"):
+    st.sidebar.switch_page("Archivos/Clase_1.py")
+if st.button("Page 2"):
+    st.sidebar.switch_page("Archivos/Clase_2.py")
+  
