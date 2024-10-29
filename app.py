@@ -16,9 +16,9 @@ if selection == "Home":
     Codigos.Clase_0.c0()
     # Aquí puedes agregar más contenido para la página principal
 elif selection == "Page 1":
-    import Codigos.Clase_1  # Asegúrate de que la ruta sea correcta
-    Codigos.Clase_1.c1()    # Asumiendo que tienes una función 'run' en Clase_1.py
+    import Codigos.Clase_1  
+    Codigos.Clase_1.c1()   
 elif selection == "Page 2":
-    import Codigos.Clase_2  # Asegúrate de que la ruta sea correcta
-    Codigos.Clase_2.c2()    # Asumiendo que tienes una función 'run' en Clase_2.py
+    import Codigos.Clase_2  
+    Codigos.Clase_2.c2()   
 
