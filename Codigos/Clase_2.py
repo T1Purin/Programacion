@@ -1,5 +1,5 @@
 import streamlit as st
 
-def c1():
+def c2():
   st.write('Hola')
 
