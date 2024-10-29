@@ -14,7 +14,6 @@ selection = st.sidebar.radio("Ir a:", list(pages.keys()))
 if selection == "Home":
     import Codigos.Clase_0
     Codigos.Clase_0.c0()
-    # Aquí puedes agregar más contenido para la página principal
 elif selection == "Page 1":
     import Codigos.Clase_1  
     Codigos.Clase_1.c1()   
