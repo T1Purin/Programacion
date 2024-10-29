@@ -14,5 +14,8 @@ def c1():
   st.sidebar.subheader('¡Hola, Barra Lateral!')
   st.sidebar.write('Esto es una barra lateral')
   st.sidebar.image('Archivos/images.png')
+  st.sidebar.button('Haz click pero en la barra lateral')
+  txb = st.sidebar.text_input('Escriba algo en la barra lateral: ')
+  st.sidebar.write(txb)
 
 
