@@ -6,7 +6,8 @@ pages = {
     "Page 2": "clase_2"
 }
 
-selection = st.sidebar.multiselect("Ir a:", list(pages.keys()))
+selection = st.sidebar.selectbox("Ir a:", list(pages.keys()))
+
 
 if selection == "Home":
     import Codigos.Clase_0
