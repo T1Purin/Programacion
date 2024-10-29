@@ -1,7 +1,5 @@
 import streamlit as st
 
-def run():
+def c1():
   st.write('Hola')
 
-def a():
-  st.header('Hola')
