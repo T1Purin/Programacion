@@ -11,6 +11,7 @@ def c1():
   st.write(f'Escribiste: {tx}')
 
   st.sidebar.header('Mi primera barra lateral de streamlit')
-  st.subheader('¡Hola barralateral,Streamlit!')
+  st.sidebar.subheader('¡Hola, Barra Lateral!')
+  st.sidebar.write('Esto es una barra lateral')
 
 
