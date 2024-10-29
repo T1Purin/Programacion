@@ -8,7 +8,7 @@ pages = {
 }
 
 # Selector de página en la barra lateral
-selection = st.sidebar.slider("Ir a:", list(pages.keys()))
+selection = st.sidebar.radio("Ir a:", list(pages.keys()))
 
 # Mostrar la página seleccionada
 if selection == "Home":
