@@ -13,5 +13,6 @@ def c1():
   st.sidebar.header('Mi primera barra lateral de streamlit')
   st.sidebar.subheader('¡Hola, Barra Lateral!')
   st.sidebar.write('Esto es una barra lateral')
+  st.image('Archivos/images.png')
 
 
