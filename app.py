@@ -12,12 +12,13 @@ selection = st.sidebar.radio("Ir a:", list(pages.keys()))
 
 # Mostrar la página seleccionada
 if selection == "Home":
-    st.title("Bienvenido a la página principal")
+    import Codigos.Amooor
+    Codigos.Amooor.()
     # Aquí puedes agregar más contenido para la página principal
 elif selection == "Page 1":
     import Codigos.Clase_1  # Asegúrate de que la ruta sea correcta
-    Codigos.Clase_1.run()    # Asumiendo que tienes una función 'run' en Clase_1.py
+    Codigos.Clase_1.c1()    # Asumiendo que tienes una función 'run' en Clase_1.py
 elif selection == "Page 2":
     import Codigos.Clase_2  # Asegúrate de que la ruta sea correcta
-    Codigos.Clase_2.a()    # Asumiendo que tienes una función 'run' en Clase_2.py
+    Codigos.Clase_2.c2()    # Asumiendo que tienes una función 'run' en Clase_2.py
 
