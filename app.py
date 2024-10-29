@@ -1,16 +1,13 @@
 import streamlit as st
 
-# Títulos de las páginas
 pages = {
     "Home": "home",
     "Page 1": "clase_1",
     "Page 2": "clase_2"
 }
 
-# Selector de página en la barra lateral
-selection = st.sidebar.radio("Ir a:", list(pages.keys()))
+selection = st.sidebar.multiselect("Ir a:", list(pages.keys()))
 
-# Mostrar la página seleccionada
 if selection == "Home":
     import Codigos.Clase_0
     Codigos.Clase_0.c0()
