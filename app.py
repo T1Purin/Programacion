@@ -19,5 +19,5 @@ elif selection == "Page 1":
     Codigos.Clase_1.run()    # Asumiendo que tienes una función 'run' en Clase_1.py
 elif selection == "Page 2":
     import Codigos.Clase_2  # Asegúrate de que la ruta sea correcta
-    Codigos.Clase_2.run()    # Asumiendo que tienes una función 'run' en Clase_2.py
+    Codigos.Clase_2.a()    # Asumiendo que tienes una función 'run' en Clase_2.py
 
