@@ -1,6 +1,6 @@
 import streamlit as st
 
 def c0():
-  st.header('Pagina principal de mi main')
-  st.subheader('Welcome tu my pagina')
-  st.image('Archivos/1.jpg')
+  st.header('Bienvenido a la pagina principal')
+  st.subheader('Aqui estara el posible subtitulo de mi pagina principal')
+  
